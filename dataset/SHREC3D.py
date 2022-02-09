@@ -172,6 +172,7 @@ class SHREC3D(Dataset):
     
     def joint(self, pred):
         """
+            Restore the total list of the full volume. 
             Must be in eval or test mode, and rotate is Fasle.
         """
         full_pred_list = []
