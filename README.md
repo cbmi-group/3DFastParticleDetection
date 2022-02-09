@@ -7,7 +7,7 @@ This repo is for the paper "FAST PARTICLE PICKING FOR CRYO-ELECTRON TOMOGRAPHY U
 
 ### Data Preparation
 
-SHREC dataset can be downloaded from [SHREC.net](https://www.shrec.net/cryo-et/2020/). We normalize the reconstruction file and cut it in half to fit the location file. The file is named as "reconstruction_norm.mrc". 
+SHREC dataset can be downloaded from [here](https://www.shrec.net/cryo-et/2020/). We normalize the reconstruction file and cut it in half to fit the location file. The file is named as "reconstruction_norm.mrc". 
 
 3D rotation was also used for training data augmentation, but had little improvement. 
 
@@ -15,9 +15,9 @@ It's also easy to build your own dataset. See dataset/SHREC3D.py as an example. 
 
 ### Model
 
-![](https://github.com/cbmi-group/3DFastParticleDetection/fig/Fig1.PNG)
+![](https://github.com/cbmi-group/3DFastParticleDetection/tree/main/fig/Fig1.PNG)
 
-![](https://github.com/cbmi-group/3DFastParticleDetection/fig/Fig2.PNG)
+![](https://github.com/cbmi-group/3DFastParticleDetection/tree/main/fig/Fig2.PNG)
 
 ---
 
