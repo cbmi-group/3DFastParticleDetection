@@ -15,9 +15,9 @@ It's also easy to build your own dataset. See dataset/SHREC3D.py as an example. 
 
 ### Model
 
-![](https://github.com/cbmi-group/3DFastParticleDetection/tree/main/fig/Fig1.PNG)
+![](https://github.com/cbmi-group/3DFastParticleDetection/blob/main/fig/Fig1.PNG)
 
-![](https://github.com/cbmi-group/3DFastParticleDetection/tree/main/fig/Fig2.PNG)
+![](https://github.com/cbmi-group/3DFastParticleDetection/blob/main/fig/Fig2.PNG)
 
 ---
 
