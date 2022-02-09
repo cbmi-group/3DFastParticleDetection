@@ -31,12 +31,16 @@ It's also easy to build your own dataset. See dataset/SHREC3D.py as an example. 
 ### Quick start 
 run train.py
 ```
-python train.py --gpu_ids='0,1,2,3' --total_epoches=150 --batch_size=32
+python train.py --gpu_ids='0,1,2,3' --total_epoches=150 --batch_size=32 --save_dir='./checkpoints'
 ```
 See more controls in train.py file. 
 
 (Note that `--pretrained` can load a pretrained model, and LOAD/SAVE methods can be seen in 'util/utils.py')
 
+run test.py
+```
+python train.py --gpu_ids='0,1,2,3' --load_dir='./checkpoints' --load_filename='YOLOv3_EPOCH[150].pth' --batch_size=32
+```
 
 ## Contributing 
 Code for this projects developped at CBMI Group (Computational Biology and Machine Intelligence Group).
